@@ -1,5 +1,5 @@
 {
-    "name": "adam-innes/alpha-hue",
+    "name": "neolas/alpha-hue",
     "description": "PHP SDK for interacting with the Phillips Hue Go Lighting System.",
     "version": "1.0.8",
     "minimum-stability": "stable",
@@ -8,6 +8,10 @@
         {
             "name": "Adam Innes",
             "email": "code@adaminnes.com"
+        },
+        {
+            "name": "Nicolas Perez",
+            "email": "code@neolas.net"
         }
     ],
     "require": {
