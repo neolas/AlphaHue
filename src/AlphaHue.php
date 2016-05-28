@@ -1,6 +1,6 @@
-<?php namespace AlphaHue;
+<?php namespace PhilipsHue;
 
-class AlphaHue
+class PhilipsHue
 {
     use LightColors;
 
@@ -69,7 +69,7 @@ class AlphaHue
      *
      * @return mixed Array response from the server or false on failure.
      */
-    public static function authorize($bridge_address, $app_name='AlphaHue', $device_name='myServer')
+    public static function authorize($bridge_address, $app_name='PhilipsHue', $device_name='myServer')
     {
         $rest = new \PhpRestClient\PhpRestClient("http://{$bridge_address}/api");
         $response = $rest->post('', json_encode(array('devicetype'=>"{$app_name}:{$device_name}")));

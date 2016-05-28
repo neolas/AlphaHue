@@ -1,4 +1,4 @@
-<?php namespace AlphaHue;
+<?php namespace PhilipsHue;
 
 trait LightColors
 {
