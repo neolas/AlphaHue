@@ -1,5 +1,5 @@
 {
-    "name": "neolas/PhilipsHue",
+    "name": "neolas/philips-hue",
     "description": "PHP SDK for interacting with the Philips Hue Lighting System.",
     "version": "1.0.8",
     "minimum-stability": "stable",
