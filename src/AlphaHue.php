@@ -158,6 +158,17 @@ class AlphaHue
     }
 
     /**
+     * Gets all IDs associated with lights attached to the Bridge.
+     * 
+     * @return mixed Array of light or boolean false on failure.
+     */
+    public function getLights()
+    {
+        $response = $this->rest->get('lights');
+        return $response;
+    }
+
+    /**
      * Gets the current On/Off state for a light.
      *
      * @param int $light_id ID number of a light attached to the Bridge.
