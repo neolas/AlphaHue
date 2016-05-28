@@ -1,4 +1,4 @@
-# AlphaHue: Phillips Hue PHP SDK
+# Philips Hue: PHP SDK
 
-## FORK of AlphaHue
+## FORKED from AlphaHue
 This a fork of https://github.com/innesian/AlphaHue to add some methods for my personnal use.
