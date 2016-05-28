@@ -1,7 +1,7 @@
 {
     "name": "neolas/philips-hue",
     "description": "PHP SDK for interacting with the Philips Hue Lighting System.",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
